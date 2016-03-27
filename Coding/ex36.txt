@@ -1,0 +1,142 @@
+# # # # KEYWORDS # # # #
+
+and - (x and y): if x is false, then x, else y
+
+del - remove an item from a list given its index instead of its value: the del statement. This differs from the pop() method which returns a value. The del statement can also be used to remove slices from a list or clear the entire list.  can also be used to delete entire variables.
+
+from - used with import to pull in data from a module.  can use in conjuction with "as" to assign an alias to the module.
+
+not - (not x) if x is false, then True, else False
+
+while - runs a loop until the condition is completed.  can be infinite
+
+as - the as keyword if we want to give a module a different alias
+
+elif - "else if" used for conditionals between "if" and "else".
+
+global - sets a variable as global.  can be accessed from inside and outside of a function.
+
+or - (x or y) if x is false, then y, else x
+
+with - *not really sure* ??? ???
+
+assert - used for debugging.  allows setting of specific error states.
+
+else - final conditional in a set.  if all other conditionals fail, this is performed.
+
+if - initial conditional: if "condition(s)" are met then do whatever.  actions to perform are preceded by four blank spaces.
+
+pass - does nothing.
+
+yield - used with generators.  exits the generator and returns the designated value.
+
+break - used to interrupt a cycle if the supplied condition is met.
+
+except - looks for a supplied exception and executes its code. The finally keyword is always executed in the end.
+
+import - brings in modules
+
+print - shows the supplied (string/variable) to the user (e.g. print "butts" will show the word butts on the screen)
+
+class - a template for objects (hold variables and functions in a single entity)
+
+exec - executes Python code dynamically.
+
+in - use to search in a tuple
+
+raise - raise an exception, like an else statement
+
+continue - used to interrupt a loop without ending it
+
+finally - ??? ???
+
+is - tests for object identity. Whether we are talking about the same object
+
+return - pass a variable out of a function, immediately ends the function
+
+def - used to define a function
+
+for - iterates over items in a container, in order
+
+lambda - creates an inline function
+
+try - like a function, not really sure what the difference is??? ???
+
+# # # # DATA TYPES # # # #
+
+True - not False, 1
+
+False - not True, 0
+
+None - no value
+
+strings - represent textual data (i.e. a_string="the_part_after_the_equals_sign_is_a_string"
+
+floats - used to represent a real number so not an integer. a fractional part of a number (i.e. .54646)
+
+lists - an ordered sequence of items
+
+# # # # STRING ESCAPES # # # #
+
+\\ - allows the \ character in a string
+\' - allows the ' character in a string
+\" - allows the " character in a string
+\a - creates an audible beep
+\b - removes the preceding character in a string
+\f - sets formfeed, basically don't use it
+\n - creates a new line in a string
+\r - inserts a carriage return in a string
+\t - inserts a tab into a string
+\v - inserts a verticle tab into a string (but why would you use this ??? ??? )
+
+# # # # STRING FORMATS # # # #
+
+%d - format number for display
+%i - same as %d ??? ???
+%o - ??? ???
+%u - same as %d, obsolete
+%x - ??? ???
+%X - ??? ???
+%e - floating point exponential lower case
+%E - floating point exponential upper case
+%f - floating point decimal lower
+%F - floating point decimal upper
+%g - ??? ???
+%G - ??? ???
+%c - ??? ???
+%r - returns detailed information about an objects contents (repr)
+%s - inserts characters into a string 
+%% - ??? ???
+
+# # # # OPERATORS # # # #
+
++ - adds values on both sides of the +
+- - subtracts right hand value from left hand
+* - multiplies values on both sides
+** - performs exponential calculation
+/ - divides left value by right value
+// - same as / but removes floats
+% - same as / but returns only the remainder
+< - lesser than (1 < 2)
+> - greater than (2 > 1)
+<= - lesser than or equal to (1<=2 AND 2<=2)
+>= - greater than or equal to (2>=1 AND 2>=2)
+== - equals ("a"=="a")
+!= - not equals ("a"!="b")
+<> - Checks if the value of two operands are equal or not, if values are not equal then condition becomes true.
+( ) - used as normal, creates a generator
+[ ] - used to create lists
+{ } - ??? ???
+@ - ??? ???
+, - ??? ???
+: - used for to declare various parts of functions
+. - ??? ???
+= - set a variable
+; - ??? ????
++= - "variable_a = 
+- = - 
+*= - 
+/= - 
+//= - 
+%= - 
+**= - 

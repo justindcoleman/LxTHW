@@ -1,0 +1,14 @@
+FUNCTION CHECKLIST:
+1. Does the function start with 'def'?
+2. name is only alphanumeric and the underscore(start w letter)?
+3. Does it have parenthesis right after the name?
+4. are the arguments within the parenthesis and comma separated?
+5. is each argument unique?
+6. is there a colon after the closing parenthesis?
+7. are all function lines indented?
+8. is the function ended with a dedent?
+
+RUNNING CHECKLIST:
+1. call this function by typing it's name?
+2. parenthesis after the name to run it?
+3. comma separated values in the function call?
